@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 27, 2018 at 05:50 AM
+-- Generation Time: Sep 27, 2018 at 06:02 AM
 -- Server version: 10.1.28-MariaDB
 -- PHP Version: 5.6.32
 
@@ -25,10 +25,10 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `students`
+-- Table structure for table `student`
 --
 
-CREATE TABLE `students` (
+CREATE TABLE `student` (
   `id` int(11) NOT NULL,
   `name` varchar(100) NOT NULL,
   `email` varchar(100) NOT NULL,
@@ -42,9 +42,9 @@ CREATE TABLE `students` (
 --
 
 --
--- Indexes for table `students`
+-- Indexes for table `student`
 --
-ALTER TABLE `students`
+ALTER TABLE `student`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -52,9 +52,9 @@ ALTER TABLE `students`
 --
 
 --
--- AUTO_INCREMENT for table `students`
+-- AUTO_INCREMENT for table `student`
 --
-ALTER TABLE `students`
+ALTER TABLE `student`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
